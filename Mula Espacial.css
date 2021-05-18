@@ -1,0 +1,73 @@
+*{ margin:0; padding:0;}
+body{
+     background-image:url("66.jpg");
+     background-color: black;
+}
+header{
+   width: 100%;
+   background: rgb(54, 54, 54);
+}
+main{
+    border: black;
+    background: rgb(54, 54, 54);
+    width: 84%;
+    margin-left: 8%;
+}
+nav { float: left; width: 100%; background: rgb(55, 95, 128);  text-align: center;}
+nav ul { list-style:none; margin:0; padding:4px; }
+nav ul li { display:inline-block }
+nav ul li a { text-decoration: none; color: #FFF; padding: 4px 20px; text-align: center;}
+nav ul li a:hover { background: rgb(55, 95, 128) }
+
+header li a:hover{
+    background:#5c5c77;
+    color: chartreuse;
+    border: solid greenyellow;
+}
+header a+a{
+   margin-left:10px ;
+}
+section{
+    background: rgb(54, 54, 54);
+    float: left;
+}
+section.textoMedio{
+    clear: both;
+    margin-bottom: 0.2em;
+    color: white;
+}
+section img{
+    width: 400px;
+    height: 300px;
+    margin-top: 2px;
+    margin-left: 2px;
+  
+
+}
+.img1{
+    clear: right;
+    float: left;
+    margin-right: 0.5em;
+}
+.img2{
+    clear: left;
+    float: right;
+    margin-left: 0.5em;
+}
+.img3{
+    clear: right;
+    float: left;
+    margin-right: 0.5em;
+}
+.img4{
+    clear: left;
+    float: right;
+    margin-left: 0.5em;
+}
+footer{
+    color: white;
+    text-align: center;
+    width: 100%; 
+    background:  black;
+    float: left;
+}
